@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Parcial_Yarith_Espitia
 {
-    public partial class Form1 : Form
+    public partial class Inicio : Form
     {
         string UserAdmin = "YarithEspitia";
         string passwordAdmin = "yarith17";
@@ -18,7 +18,7 @@ namespace Parcial_Yarith_Espitia
         string passwordUser_1 = "danna04";
         string User_2 = "SaraArias";
         string passwordUser_2 = "sara09";
-        public Form1()
+        public Inicio()
         {
             InitializeComponent();
         }
@@ -31,6 +31,13 @@ namespace Parcial_Yarith_Espitia
         private void btnIniciar_Click(object sender, EventArgs e)
         {
 
+            if (TxtUsuario.Text == UserAdmin && TxtContraseña.Text == passwordAdmin)
+            {
+                TxtUsuario.Clear();
+                TxtContraseña.Clear();
+                Inicio Main = new Inicio();
+                Main.ShowDialog();
+            }
         }
     }
 }

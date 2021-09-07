@@ -16,7 +16,7 @@ namespace Parcial_Yarith_Espitia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Inicio());
         }
     }
 }

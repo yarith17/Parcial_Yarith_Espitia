@@ -1,7 +1,7 @@
 ﻿
 namespace Parcial_Yarith_Espitia
 {
-    partial class Form1
+    partial class Inicio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -32,8 +32,8 @@ namespace Parcial_Yarith_Espitia
             this.label1 = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.TxtUsuario = new System.Windows.Forms.TextBox();
+            this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.btnIniciar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -71,20 +71,20 @@ namespace Parcial_Yarith_Espitia
             this.lblContraseña.TabIndex = 2;
             this.lblContraseña.Text = "Contraseña";
             // 
-            // txtUsuario
+            // TxtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(269, 141);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(245, 20);
-            this.txtUsuario.TabIndex = 3;
-            this.txtUsuario.TabStop = false;
+            this.TxtUsuario.Location = new System.Drawing.Point(269, 141);
+            this.TxtUsuario.Name = "TxtUsuario";
+            this.TxtUsuario.Size = new System.Drawing.Size(245, 20);
+            this.TxtUsuario.TabIndex = 3;
+            this.TxtUsuario.TabStop = false;
             // 
-            // txtContraseña
+            // TxtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(269, 211);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(245, 20);
-            this.txtContraseña.TabIndex = 4;
+            this.TxtContraseña.Location = new System.Drawing.Point(269, 211);
+            this.TxtContraseña.Name = "TxtContraseña";
+            this.TxtContraseña.Size = new System.Drawing.Size(245, 20);
+            this.TxtContraseña.TabIndex = 4;
             // 
             // btnIniciar
             // 
@@ -112,8 +112,8 @@ namespace Parcial_Yarith_Espitia
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(623, 411);
             this.Controls.Add(this.btnIniciar);
-            this.Controls.Add(this.txtContraseña);
-            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.TxtContraseña);
+            this.Controls.Add(this.TxtUsuario);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.label1);
@@ -131,8 +131,8 @@ namespace Parcial_Yarith_Espitia
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox TxtUsuario;
+        private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.Button btnIniciar;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
