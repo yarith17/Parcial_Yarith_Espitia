@@ -26,5 +26,10 @@ namespace Parcial_Yarith_Espitia
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

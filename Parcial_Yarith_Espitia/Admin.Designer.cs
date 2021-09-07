@@ -39,10 +39,11 @@ namespace Parcial_Yarith_Espitia
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(201, 42);
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(126, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 41);
+            this.label1.Size = new System.Drawing.Size(371, 85);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bienvenido!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -50,7 +51,7 @@ namespace Parcial_Yarith_Espitia
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Parcial_Yarith_Espitia.Properties.Resources.Bienvenido;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(3, -5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(599, 401);
             this.pictureBox1.TabIndex = 2;
@@ -59,20 +60,24 @@ namespace Parcial_Yarith_Espitia
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(307, 113);
+            this.label2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(114, 142);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(190, 13);
+            this.label2.Size = new System.Drawing.Size(393, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "Aqui puedes ver todo nuestro catalogo";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(352, 167);
+            this.label3.BackColor = System.Drawing.SystemColors.Control;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(211, 192);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.Size = new System.Drawing.Size(193, 34);
             this.label3.TabIndex = 4;
             this.label3.Text = "¿Que deseas?";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Admin
             // 
