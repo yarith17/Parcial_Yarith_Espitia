@@ -1,0 +1,6 @@
+UsuarioAdmin = "YarithEspitia";
+contraseñaAdmin = "yarith17";
+Usuario_1 = "DannaOrtiz";
+contraseñaUsuario_1 = "danna04";
+Usuario_2 = "SaraArias";
+contraseñaUsuario_2 = "sara09";
