@@ -31,5 +31,15 @@ namespace Parcial_Yarith_Espitia
         {
             rtbRegistro.Text = "datos del cliente \n" + "nombre: " + TxtNombre.Text + "\n" + "Cedula: " + TxtCedula.Text + "\n" + "Pan aliñado: " + TxtAliñado.Text + "\n" + " Pan no Aliñado: " + TxtNoAliñado.Text + "\n" + "Pan especial: " + TxtEspecial.Text + "\n" + "valor total de la venta: " + TxtValor.Text;
         }
+
+        private void TxtEspecial_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtCedula_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
