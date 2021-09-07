@@ -40,77 +40,86 @@ namespace Parcial_Yarith_Espitia
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.TxtNombre = new System.Windows.Forms.TextBox();
+            this.TxtCedula = new System.Windows.Forms.TextBox();
+            this.TxtEspecial = new System.Windows.Forms.TextBox();
+            this.TxtNoAliñado = new System.Windows.Forms.TextBox();
+            this.TxtAliñado = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.TxtValor = new System.Windows.Forms.TextBox();
+            this.rtbRegistro = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 22);
+            this.label1.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(196, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 13);
+            this.label1.Size = new System.Drawing.Size(217, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Informacion del cliente";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(130, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 13);
+            this.label2.Size = new System.Drawing.Size(122, 14);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nombre Completo";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(130, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(100, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Identificacion";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(135, 219);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.Size = new System.Drawing.Size(123, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Hora de la venta";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(495, 135);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 13);
+            this.label5.Size = new System.Drawing.Size(140, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Pan Aliñado: $1000";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(490, 96);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(496, 96);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 13);
+            this.label6.Size = new System.Drawing.Size(156, 16);
             this.label6.TabIndex = 5;
             this.label6.Text = "Pan No Aliñado: $500";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(490, 59);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(496, 57);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(105, 13);
+            this.label7.Size = new System.Drawing.Size(148, 16);
             this.label7.TabIndex = 6;
             this.label7.Text = "Pan Especial: $2000";
             // 
@@ -135,9 +144,10 @@ namespace Parcial_Yarith_Espitia
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(520, 22);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(578, 22);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 13);
+            this.label10.Size = new System.Drawing.Size(81, 20);
             this.label10.TabIndex = 9;
             this.label10.Text = "Catalogo";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -150,40 +160,40 @@ namespace Parcial_Yarith_Espitia
             this.label11.Size = new System.Drawing.Size(0, 13);
             this.label11.TabIndex = 10;
             // 
-            // textBox1
+            // TxtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(246, 74);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 11;
+            this.TxtNombre.Location = new System.Drawing.Point(246, 74);
+            this.TxtNombre.Name = "TxtNombre";
+            this.TxtNombre.Size = new System.Drawing.Size(200, 20);
+            this.TxtNombre.TabIndex = 11;
             // 
-            // textBox2
+            // TxtCedula
             // 
-            this.textBox2.Location = new System.Drawing.Point(246, 113);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 12;
+            this.TxtCedula.Location = new System.Drawing.Point(246, 113);
+            this.TxtCedula.Name = "TxtCedula";
+            this.TxtCedula.Size = new System.Drawing.Size(100, 20);
+            this.TxtCedula.TabIndex = 12;
             // 
-            // textBox3
+            // TxtEspecial
             // 
-            this.textBox3.Location = new System.Drawing.Point(632, 56);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 13;
+            this.TxtEspecial.Location = new System.Drawing.Point(632, 56);
+            this.TxtEspecial.Name = "TxtEspecial";
+            this.TxtEspecial.Size = new System.Drawing.Size(100, 20);
+            this.TxtEspecial.TabIndex = 13;
             // 
-            // textBox4
+            // TxtNoAliñado
             // 
-            this.textBox4.Location = new System.Drawing.Point(632, 96);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 14;
+            this.TxtNoAliñado.Location = new System.Drawing.Point(632, 96);
+            this.TxtNoAliñado.Name = "TxtNoAliñado";
+            this.TxtNoAliñado.Size = new System.Drawing.Size(100, 20);
+            this.TxtNoAliñado.TabIndex = 14;
             // 
-            // textBox5
+            // TxtAliñado
             // 
-            this.textBox5.Location = new System.Drawing.Point(632, 135);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 15;
+            this.TxtAliñado.Location = new System.Drawing.Point(632, 135);
+            this.TxtAliñado.Name = "TxtAliñado";
+            this.TxtAliñado.Size = new System.Drawing.Size(100, 20);
+            this.TxtAliñado.TabIndex = 15;
             // 
             // textBox6
             // 
@@ -192,20 +202,20 @@ namespace Parcial_Yarith_Espitia
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 16;
             // 
-            // textBox7
+            // TxtValor
             // 
-            this.textBox7.Location = new System.Drawing.Point(246, 283);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 17;
+            this.TxtValor.Location = new System.Drawing.Point(246, 283);
+            this.TxtValor.Name = "TxtValor";
+            this.TxtValor.Size = new System.Drawing.Size(100, 20);
+            this.TxtValor.TabIndex = 17;
             // 
-            // richTextBox1
+            // rtbRegistro
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(485, 232);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(235, 85);
-            this.richTextBox1.TabIndex = 18;
-            this.richTextBox1.Text = "";
+            this.rtbRegistro.Location = new System.Drawing.Point(485, 232);
+            this.rtbRegistro.Name = "rtbRegistro";
+            this.rtbRegistro.Size = new System.Drawing.Size(235, 85);
+            this.rtbRegistro.TabIndex = 18;
+            this.rtbRegistro.Text = "";
             // 
             // button1
             // 
@@ -215,6 +225,16 @@ namespace Parcial_Yarith_Espitia
             this.button1.TabIndex = 19;
             this.button1.Text = "Registrar Venta";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Parcial_Yarith_Espitia.Properties.Resources._736b471f6c02527d4650778556f62acc;
+            this.pictureBox1.Location = new System.Drawing.Point(117, 1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(853, 409);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
             // 
             // Usuario
             // 
@@ -222,14 +242,14 @@ namespace Parcial_Yarith_Espitia
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.rtbRegistro);
+            this.Controls.Add(this.TxtValor);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtAliñado);
+            this.Controls.Add(this.TxtNoAliñado);
+            this.Controls.Add(this.TxtEspecial);
+            this.Controls.Add(this.TxtCedula);
+            this.Controls.Add(this.TxtNombre);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -241,9 +261,11 @@ namespace Parcial_Yarith_Espitia
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Usuario";
             this.Text = "Usuario";
             this.Load += new System.EventHandler(this.Usuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,14 +284,15 @@ namespace Parcial_Yarith_Espitia
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox TxtNombre;
+        private System.Windows.Forms.TextBox TxtCedula;
+        private System.Windows.Forms.TextBox TxtEspecial;
+        private System.Windows.Forms.TextBox TxtNoAliñado;
+        private System.Windows.Forms.TextBox TxtAliñado;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.TextBox TxtValor;
+        private System.Windows.Forms.RichTextBox rtbRegistro;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
