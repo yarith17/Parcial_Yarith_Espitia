@@ -55,7 +55,7 @@ namespace Parcial_Yarith_Espitia
             // 
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(120, 133);
+            this.lblUsuario.Location = new System.Drawing.Point(178, 133);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(91, 28);
             this.lblUsuario.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace Parcial_Yarith_Espitia
             // 
             this.lblContraseña.AutoSize = true;
             this.lblContraseña.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(84, 202);
+            this.lblContraseña.Location = new System.Drawing.Point(142, 202);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(127, 28);
             this.lblContraseña.TabIndex = 2;
@@ -73,17 +73,17 @@ namespace Parcial_Yarith_Espitia
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(269, 141);
+            this.TxtUsuario.Location = new System.Drawing.Point(312, 142);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(245, 20);
+            this.TxtUsuario.Size = new System.Drawing.Size(207, 20);
             this.TxtUsuario.TabIndex = 3;
             this.TxtUsuario.TabStop = false;
             // 
             // TxtContraseña
             // 
-            this.TxtContraseña.Location = new System.Drawing.Point(269, 211);
+            this.TxtContraseña.Location = new System.Drawing.Point(312, 211);
             this.TxtContraseña.Name = "TxtContraseña";
-            this.TxtContraseña.Size = new System.Drawing.Size(245, 20);
+            this.TxtContraseña.Size = new System.Drawing.Size(207, 20);
             this.TxtContraseña.TabIndex = 4;
             // 
             // btnIniciar
@@ -106,7 +106,7 @@ namespace Parcial_Yarith_Espitia
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,7 +118,7 @@ namespace Parcial_Yarith_Espitia
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Inicio";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

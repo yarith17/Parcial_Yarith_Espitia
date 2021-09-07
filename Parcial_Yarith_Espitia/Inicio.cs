@@ -12,12 +12,12 @@ namespace Parcial_Yarith_Espitia
 {
     public partial class Inicio : Form
     {
-        string UserAdmin = "YarithEspitia";
-        string passwordAdmin = "yarith17";
-        string User_1 = "DannaOrtiz";
-        string passwordUser_1 = "danna04";
-        string User_2 = "SaraArias";
-        string passwordUser_2 = "sara09";
+        string UsuarioAdmin = "YarithEspitia";
+        string contraseñaAdmin = "yarith17";
+        string Usuario_1 = "DannaOrtiz";
+        string contraseñaUsuario_1 = "danna04";
+        string Usuario_2 = "SaraArias";
+        string contraseñaUsuario_2 = "sara09";
         public Inicio()
         {
             InitializeComponent();
@@ -31,13 +31,35 @@ namespace Parcial_Yarith_Espitia
         private void btnIniciar_Click(object sender, EventArgs e)
         {
 
-            if (TxtUsuario.Text == UserAdmin && TxtContraseña.Text == passwordAdmin)
+            if (TxtUsuario.Text == UsuarioAdmin && TxtContraseña.Text == contraseñaAdmin)
             {
                 TxtUsuario.Clear();
                 TxtContraseña.Clear();
                 Inicio Main = new Inicio();
                 Main.ShowDialog();
             }
-        }
+            else
+            {
+                if (TxtUsuario.Text == Usuario_1 && TxtContraseña.Text == contraseñaUsuario_1)
+                {
+                    TxtUsuario.Clear();
+                    TxtContraseña.Clear();
+                    Usuario Main = new Usuario();
+                    Main.ShowDialog();
+                }
+                else
+                {
+                    if (TxtUsuario.Text == Usuario_2 && TxtContraseña.Text == contraseñaUsuario_2)
+                    {
+                        TxtUsuario.Clear();
+                        TxtContraseña.Clear();
+                        Usuario Main = new Usuario();
+                        Main.ShowDialog();
+                    }
+                
+                    }
+
+                }
+            }
     }
 }
