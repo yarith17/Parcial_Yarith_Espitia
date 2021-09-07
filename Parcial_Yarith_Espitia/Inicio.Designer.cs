@@ -42,11 +42,12 @@ namespace Parcial_Yarith_Espitia
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(262, 58);
+            this.label1.Location = new System.Drawing.Point(151, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(285, 40);
+            this.label1.Size = new System.Drawing.Size(368, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Panaderia OnlyPans";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -54,20 +55,20 @@ namespace Parcial_Yarith_Espitia
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuario.Location = new System.Drawing.Point(178, 133);
+            this.lblUsuario.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.Location = new System.Drawing.Point(154, 131);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(91, 28);
+            this.lblUsuario.Size = new System.Drawing.Size(95, 31);
             this.lblUsuario.TabIndex = 1;
             this.lblUsuario.Text = "Usuario";
             // 
             // lblContraseña
             // 
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Font = new System.Drawing.Font("Cambria", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContraseña.Location = new System.Drawing.Point(142, 202);
+            this.lblContraseña.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Location = new System.Drawing.Point(154, 200);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(127, 28);
+            this.lblContraseña.Size = new System.Drawing.Size(136, 31);
             this.lblContraseña.TabIndex = 2;
             this.lblContraseña.Text = "Contraseña";
             // 
@@ -89,7 +90,7 @@ namespace Parcial_Yarith_Espitia
             // btnIniciar
             // 
             this.btnIniciar.Font = new System.Drawing.Font("Cambria", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIniciar.Location = new System.Drawing.Point(312, 307);
+            this.btnIniciar.Location = new System.Drawing.Point(239, 265);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Size = new System.Drawing.Size(150, 36);
             this.btnIniciar.TabIndex = 5;
@@ -100,7 +101,7 @@ namespace Parcial_Yarith_Espitia
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Parcial_Yarith_Espitia.Properties.Resources._736b471f6c02527d4650778556f62acc;
-            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(629, 416);
             this.pictureBox1.TabIndex = 6;
